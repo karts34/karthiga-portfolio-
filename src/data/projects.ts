@@ -1,5 +1,8 @@
 import { ProjectItem } from '../types';
 
+// Public repositories and their README content were checked during the redesign.
+// Add a liveDemoUrl only after verifying an actual public deployment.
+
 export const projectsData: ProjectItem[] = [
   {
     id: "avs-campus-management",
@@ -92,5 +95,13 @@ export const draftConcepts = [
     title: "Smart Energy Grid + Digital Twin",
     status: "Concept / Research",
     description: "Simulation dashboard modeling micro-grid load distributions and renewable energy dispatch."
+  },
+  {
+    id: "ai-tools-learning-platform",
+    title: "AI Tools Learning Platform",
+    status: "Details forthcoming",
+    // The portfolio brief provides a title, but no source, stack, or demo.
+    // Replace this editable placeholder when verified project details are available.
+    description: "Project details and a public preview will be added here."
   }
 ];

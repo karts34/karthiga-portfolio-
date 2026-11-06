@@ -1,6 +1,6 @@
 export const personalInfo = {
   name: "Karthiga S.",
-  eyebrow: "HELLO, I'M",
+  eyebrow: "WELCOME TO MY UNIVERSE",
   roles: [
     "AI & ML Engineer",
     "Full Stack Developer",
@@ -41,8 +41,7 @@ export const personalInfo = {
   socialLinks: {
     github: "https://github.com/karts34",
     linkedin: "https://www.linkedin.com/in/karthiga-saravanan-8661a0381/",
-    // Note for user: Add verified email here when ready. If empty, the contact form provides mailto and clipboard options.
-    email: "", 
+    email: "saravanankarthiga87@gmail.com",
   },
   easterEgg: {
     quote: "Somewhere among the stars, a new universe is always waiting to be created.",
