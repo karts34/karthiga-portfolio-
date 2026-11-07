@@ -68,40 +68,14 @@ export const projectsData: ProjectItem[] = [
     technologies: ["Unity", "C#", "Vehicle Physics", "Level Architecture"],
     repositoryUrl: "https://github.com/karts34/Multi-car-racing-selection-",
     featured: false,
-  }
-];
-
-export const draftConcepts = [
+  },
   {
     id: "devicedna-ai",
     title: "DeviceDNA AI",
-    status: "Concept / In Research",
-    description: "Hardware telemetry profiling and intelligent predictive maintenance framework using lightweight edge ML."
-  },
-  {
-    id: "skillcert360",
-    title: "SkillCert360",
-    status: "Concept / In Design",
-    description: "Decentralized verification platform for technical credentials and student skill validations."
-  },
-  {
-    id: "cr-attendance",
-    title: "CR Attendance Manager",
-    status: "Concept / In Progress",
-    description: "Automated student class representative logging utility with instant timetable sync."
-  },
-  {
-    id: "smart-energy-grid",
-    title: "Smart Energy Grid + Digital Twin",
-    status: "Concept / Research",
-    description: "Simulation dashboard modeling micro-grid load distributions and renewable energy dispatch."
-  },
-  {
-    id: "ai-tools-learning-platform",
-    title: "AI Tools Learning Platform",
-    status: "Details forthcoming",
-    // The portfolio brief provides a title, but no source, stack, or demo.
-    // Replace this editable placeholder when verified project details are available.
-    description: "Project details and a public preview will be added here."
+    category: "AI & ML",
+    description: "Hardware telemetry profiling and intelligent predictive maintenance framework using lightweight edge ML.",
+    technologies: [],
+    featured: true,
+    isConcept: true,
   }
 ];

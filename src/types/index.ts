@@ -6,7 +6,7 @@ export interface ProjectItem {
   description: string;
   detailedDescription?: string;
   technologies: string[];
-  repositoryUrl: string;
+  repositoryUrl?: string;
   liveDemoUrl?: string; // Only when verified
   featured?: boolean;
   image?: string;
